@@ -27,7 +27,7 @@ class App extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <h1 className="App-title">Welcome to React</h1>
-                    <h1 className="App-reg-font">This is a practice Demo, Sample One</h1>
+                    <h1 className="App-reg-font">This is a practice Demo, Sample One. The demo shows a React App coupled with Express.</h1>
                 </header>
                 <p className="App-intro">{this.state.apiResponse}</p>
             </div>
