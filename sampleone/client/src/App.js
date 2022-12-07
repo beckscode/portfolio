@@ -9,6 +9,7 @@ class App extends Component {
         this.state = { apiResponse: "" };
     }
 
+    //calling api - express app. 
     callAPI() {
         fetch("http://localhost:9000/testAPI")
             .then(res => res.text())
@@ -26,6 +27,7 @@ class App extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <h1 className="App-title">Welcome to React</h1>
+                    <h1 className="App-reg-font">This is a practice Demo, Sample One</h1>
                 </header>
                 <p className="App-intro">{this.state.apiResponse}</p>
             </div>
